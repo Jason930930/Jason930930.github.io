@@ -5,7 +5,7 @@ ShowToc: false
 ---
 
 ## 學歷
-- **XX 大學 資訊工程學系**（20XX – 迄今）
+- **XX 大學 資訊管理與財務金融學系(資訊管理組)**（2023 – 迄今）
 
 ## 研究興趣
 Computer Vision、3D Reconstruction、AI Agents
