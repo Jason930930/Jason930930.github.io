@@ -1,0 +1,65 @@
+baseURL = "https://github.com/Jason930930/Jason930930.github.io"
+languageCode = "zh-tw"
+title = "張紘誌 | Jason Chang"
+theme = "PaperMod"
+enableRobotsTXT = true
+hasCJKLanguage = true          # 讓中文字數與閱讀時間計算正確
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]   # JSON 給站內搜尋用
+
+[params]
+  env = "production"
+  author = "張紘誌"
+  description = "Computer Science student · Computer Vision · AI/ML"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowToc = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm 紘誌 👋"
+    Content = "資工系學生，專注於電腦視覺與 AI 系統。這裡記錄我的研究、專案與技術筆記。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Jason930930/Jason930930.github.io"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourname"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:jason0930.chang@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 5
+
+[markup.highlight]
+  noClasses = false
